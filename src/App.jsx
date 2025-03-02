@@ -459,6 +459,7 @@ function App() {
                         type="number"
                         className="form-control"
                         placeholder="請輸入原價"
+                        min="0"
                       />
                     </div>
                     <div className="col-6">
@@ -473,6 +474,7 @@ function App() {
                         type="number"
                         className="form-control"
                         placeholder="請輸入售價"
+                        min="0"
                       />
                     </div>
                   </div>
